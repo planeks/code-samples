@@ -13,3 +13,6 @@ Examples:
 - [Dockerfile2](https://github.com/planeks/code-samples/blob/main/code_examples/Dockerfile-example2.md)
 - [Dockerfile-compose1](https://github.com/planeks/code-samples/blob/main/code_examples/Docker-compose-example1.md)
 - [Dockerfile-compose2](https://github.com/planeks/code-samples/blob/main/code_examples/Docker-compose-example2.md)
+- [Custom celery tasks](https://github.com/planeks/code-samples/blob/main/code_examples/CustomCeleryTasks.md)
+- [Custom django linkedin auth](https://github.com/planeks/code-samples/blob/main/code_examples/CustomDjangoLinkedInAuth.md)
+- [Serverless AWS Lambda](https://github.com/planeks/code-samples/blob/main/code_examples/ServerlessLambdaAWS.md)

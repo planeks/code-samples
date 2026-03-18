@@ -17,3 +17,4 @@ Examples:
 - [Custom django linkedin auth](https://github.com/planeks/code-samples/blob/main/code_examples/CustomDjangoLinkedInAuth.md)
 - [Serverless AWS Lambda](https://github.com/planeks/code-samples/blob/main/code_examples/ServerlessLambdaAWS.md)
 - [LLM Integration](https://github.com/planeks/code-samples/blob/main/code_examples/LLMIntegration.md)
+- [DevOps/CI/CD](https://github.com/planeks/code-samples/blob/main/code_examples/DevOpsCICD.md)

@@ -19,3 +19,5 @@ Examples:
 - [LLM Integration](https://github.com/planeks/code-samples/blob/main/code_examples/LLMIntegration.md)
 - [DevOps/CI/CD](https://github.com/planeks/code-samples/blob/main/code_examples/DevOpsCICD.md)
 - [React + Vite Patterns](https://github.com/planeks/code-samples/blob/main/code_examples/ReactVite.md)
+- [DDD & Clean Architecture (Django, Error Logging Application)](https://github.com/planeks/code-samples/blob/main/code_examples/DDD_CleanArchitecture.md)
+- [System Architecture (C4 Model)](https://github.com/planeks/code-samples/blob/main/code_examples/SystemArchitecture.md)

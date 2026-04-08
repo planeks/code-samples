@@ -114,17 +114,17 @@ def test_user_can_create_work_and_manage_creator_splits(self):
     # Verify existing creator split
     self.assertEqual(app.work.get_split_status(self, "Anton"), "Accepted")
     self.assertEqual(app.work.get_split_amount(self, "Anton"), "25.00%")
-    self.assertEqual(app.work.get_split_name(self, "Anton"), "Anton Korniienko")
+    self.assertEqual(app.work.get_split_name(self, "Anton"), "Anton SecondName")
     self.assertEqual(app.work.get_split_function(self, "Anton"), "Lyricist")
-    self.assertEqual(app.work.get_split_email(self, "Anton"), "akorn@hi.com")
+    self.assertEqual(app.work.get_split_email(self, "Anton"), "test@example.com")
 
     # Replace creator with new (unregistered) user
-    app.work.edit_split(self, "Korniienko")
+    app.work.edit_split(self, "SecondName")
     app.work.clear_selected_creator(self)
 
     app.work.fill_new_creator_split(
         self,
-        email="random_email@musicteam.com",
+        email="random_email@example.com",
         function="Songwriter",
         percent="25",
     )
@@ -146,7 +146,7 @@ def test_user_can_create_work_and_manage_creator_splits(self):
     self.assertEqual(app.work.get_split_amount(self, "Creator Name"), "25.00%")
     self.assertEqual(
         app.work.get_split_email(self, "Creator Name"),
-        "random_email@musicteam.com",
+        "random_email@example.com",
     )
     self.assertEqual(
         app.work.get_split_name(self, "Creator Name"),

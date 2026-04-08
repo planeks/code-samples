@@ -229,12 +229,3 @@ class WorkPage:
     def get_split_function(self, sb, username):
         return sb.get_text(f".//span[contains(text(), '{username}')]/..//span[@class='function']")
 ```
-
-------------------------------------------------------------------------
-
-## Key Takeaways
-
--   Business-readable tests
--   Strong validation coverage
--   Page Object abstraction
--   Real-world ownership workflows

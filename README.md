@@ -21,3 +21,4 @@ Examples:
 - [React + Vite Patterns](https://github.com/planeks/code-samples/blob/main/code_examples/ReactVite.md)
 - [DDD & Clean Architecture (Django, Error Logging Application)](https://github.com/planeks/code-samples/blob/main/code_examples/DDD_CleanArchitecture.md)
 - [System Architecture (C4 Model)](https://github.com/planeks/code-samples/blob/main/code_examples/SystemArchitecture.md)
+- [E2E Testing](https://github.com/planeks/code-samples/blob/main/code_examples/E2ETesting.md)

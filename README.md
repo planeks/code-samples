@@ -2,6 +2,7 @@
 
 Examples:
 
+- [AI Setup](https://github.com/planeks/code-samples/blob/main/code_examples/AI_Setup.md)
 - [Celery configuration](https://github.com/planeks/code-samples/blob/main/code_examples/CeleryConfiguration.md)
 - [Django channels](https://github.com/planeks/code-samples/blob/main/code_examples/DjangoChannels.md)
 - [Django migrations](https://github.com/planeks/code-samples/blob/main/code_examples/DjangoMigrations.md)
